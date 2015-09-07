@@ -1,0 +1,1 @@
+Explorer is a file explorer.
