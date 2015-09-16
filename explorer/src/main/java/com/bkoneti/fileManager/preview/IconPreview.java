@@ -72,10 +72,9 @@ public class IconPreview {
         if (file != null && file.isDirectory()) {
             String[] files = file.list();
             if (file.canRead() && files != null && files.length > 0)
-                mimeIcon = mResources.getDrawable(R.mipmap.type_folder_empty);
-            else
-                // currently providing the same image for both as well as non empty folders
                 mimeIcon = mResources.getDrawable(R.mipmap.type_folder);
+            else
+                mimeIcon = mResources.getDrawable(R.mipmap.type_folder_empty);
         } else if (file != null && file.isFile()) {
             final String fileExt = SimpleUtils.getExtension(file.getName());
             mimeIcon = mMimeTypeIconCache.get(fileExt);

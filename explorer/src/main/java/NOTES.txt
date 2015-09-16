@@ -1,0 +1,5 @@
+1) Modify Folder icon with pleasible color and design
+2) Change the search to happen in the same window
+3) Try to change the background color of action bar and app
+4) Work on the information module
+5) Work on Settings under Hamburger menu
